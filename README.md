@@ -44,7 +44,7 @@ jobs:
           name: java-app
       
       - name: Deploy to Azure Web App
-        id: deploy-to-webapp
+        id: deploy-to-webapp 
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'my-spring-azure-demo'
