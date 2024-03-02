@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public  String getMessage(){
-		return "Welcome to the Springboot world Raja ! with Azure deployment ";
+		return "Welcome to the Springboot world Raja ! with Azure deployment; CHERRYMANU ";
 	}
 }
